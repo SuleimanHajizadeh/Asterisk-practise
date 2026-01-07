@@ -1,9 +1,3 @@
-Ah, indi başa düşdüm – sən istəyirsən ki, **hamısı tam bir README.md sənədində, bir Markdown blokunda, heç bir əlavə kod blok açılıb-bağlanması və ya səhv format olmadan**, bir dəfə copy-paste edə biləsən. Mən bunu indi tam düz formatda verirəm:
-
----
-
-# README.md üçün tam hazır Markdown sənədi:
-
 ```markdown
 # Asterisk-practise
 
