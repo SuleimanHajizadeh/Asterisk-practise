@@ -1,7 +1,3 @@
-Əlbəttə! Mən sənin `Asterisk-practise` repository-si üçün **geniş, izahlı və şəkilli README.md** sənədini hazırladım. Bu sənəd həm **məqsəd, quraşdırma, istifadə, skriptlər, və vizual izahlar** ilə doludur.
-
-Aşağıda hazır versiyanı görə bilərsən:
-
 ````markdown
 # Asterisk-practise
 
@@ -180,13 +176,11 @@ For questions or feedback, feel free to contact me through GitHub: [SuleimanHaji
 
 ---
 
-🔗 **Check out the repo:** [https://github.com/SuleimanHajizadeh/Asterisk-practise](https://github.com/SuleimanHajizadeh/Asterisk-practise)
+**Check out the repo:** [https://github.com/SuleimanHajizadeh/Asterisk-practise](https://github.com/SuleimanHajizadeh/Asterisk-practise)
 
 ```
 
 ---
 
-💡 **Qeyd:** README-də istifadə olunan şəkillər (`Asterisk logo`, `IVR diagram`) **GitHub-da public URL-lərlə işləyir**. Əgər istəyirsənsə, mən bunu **daha vizual, ekran görüntüləri ilə zənginləşdirilmiş bir README** də hazırlaya bilərəm ki, GitHub səhifəsi daha peşəkar görünsün.  
 
-İstəyirsən bunu edim?
 ```
