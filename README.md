@@ -1,4 +1,4 @@
-````markdown
+````
 # Asterisk-practise
 
 ![Asterisk Logo](https://upload.wikimedia.org/wikipedia/commons/3/33/AsteriskPBX.png)
