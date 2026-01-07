@@ -1,6 +1,6 @@
 # Asterisk-practise
 
-![Asterisk Logo]([https://upload.wikimedia.org/wikipedia/commons/3/33/AsteriskPBX.png](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Asterisk_logo.svg/1200px-Asterisk_logo.svg.png))
+![Asterisk Logo]([https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Asterisk_logo.svg/1200px-Asterisk_logo.svg.png])
 
 **A hands-on GitHub repository for learning and experimenting with Asterisk, an open-source VoIP and PBX platform.**
 
