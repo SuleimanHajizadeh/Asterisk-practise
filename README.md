@@ -1,9 +1,15 @@
-```
+Ah, indi başa düşdüm – sən istəyirsən ki, **hamısı tam bir README.md sənədində, bir Markdown blokunda, heç bir əlavə kod blok açılıb-bağlanması və ya səhv format olmadan**, bir dəfə copy-paste edə biləsən. Mən bunu indi tam düz formatda verirəm:
+
+---
+
+# README.md üçün tam hazır Markdown sənədi:
+
+```markdown
 # Asterisk-practise
 
 ![Asterisk Logo](https://upload.wikimedia.org/wikipedia/commons/3/33/AsteriskPBX.png)
 
-**A hands-on GitHub repository for learning and experimenting with Asterisk, an open-source VoIP and PBX platform.**  
+**A hands-on GitHub repository for learning and experimenting with Asterisk, an open-source VoIP and PBX platform.**
 
 This repository provides practical examples, configuration files, and scripts to help developers, students, and IT enthusiasts explore telephony protocols, SIP/IAX endpoints, call routing, and PBX functionalities.
 
@@ -19,7 +25,8 @@ This repository provides practical examples, configuration files, and scripts to
 - [Examples](#examples)  
 - [Learning Outcomes](#learning-outcomes)  
 - [Contributing](#contributing)  
-- [License](#license)
+- [License](#license)  
+- [Contact](#contact)
 
 ---
 
@@ -42,7 +49,7 @@ This project is ideal for learning practical telephony without the need for expe
 - Basic **scripts** for testing SIP registrations and call flows  
 - Example **dialplans** for practice  
 - Step-by-step instructions for running a **local Asterisk server**  
-- Safe environment for **hands-on learning**  
+- Safe environment for **hands-on learning**
 
 ---
 
@@ -58,21 +65,27 @@ This project is ideal for learning practical telephony without the need for expe
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/SuleimanHajizadeh/Asterisk-practise.git
+```
+
+git clone [https://github.com/SuleimanHajizadeh/Asterisk-practise.git](https://github.com/SuleimanHajizadeh/Asterisk-practise.git)
 cd Asterisk-practise
-````
+
+```
 
 2. Copy configuration files to your Asterisk directory:
 
-```bash
+```
+
 sudo cp -r configs/* /etc/asterisk/
+
 ```
 
 3. Reload Asterisk to apply the new configuration:
 
-```bash
+```
+
 sudo asterisk -rx "core reload"
+
 ```
 
 4. Start experimenting with endpoints, dialplans, and SIP registrations.
@@ -83,27 +96,32 @@ sudo asterisk -rx "core reload"
 
 ### Start Asterisk CLI
 
-```bash
+```
+
 sudo asterisk -rvvv
+
 ```
 
 ### Check Endpoints
 
-```bash
+```
+
 pjsip show endpoints
+
 ```
 
 ### Make a Test Call
 
-* Register two SIP endpoints
-* Dial from one endpoint to another
-* Observe call logs in the CLI
+- Register two SIP endpoints  
+- Dial from one endpoint to another  
+- Observe call logs in the CLI
 
 ---
 
 ## Repository Structure
 
-```text
+```
+
 Asterisk-practise/
 ├── configs/          # Asterisk configuration files
 │   ├── pjsip.conf
@@ -114,6 +132,7 @@ Asterisk-practise/
 │   ├── sip_register.sh
 ├── README.md
 └── LICENSE
+
 ```
 
 ---
@@ -122,17 +141,21 @@ Asterisk-practise/
 
 ### 1. Simple Call Flow
 
-```text
+```
+
 Extension 1001 --> Dial 1002 --> Call connected
+
 ```
 
 ### 2. Basic IVR
 
-```text
+```
+
 Welcome Menu:
 1 -> Sales
 2 -> Support
 3 -> Voicemail
+
 ```
 
 ![IVR Example](https://upload.wikimedia.org/wikipedia/commons/1/10/IVR_Diagram.svg)
@@ -143,10 +166,10 @@ Welcome Menu:
 
 By exploring this repository, you will learn:
 
-* How to configure Asterisk endpoints (SIP/IAX)
-* How to manage call routing and dialplans
-* How to implement basic IVR and voicemail
-* How to experiment with VoIP calls in a safe environment
+- How to configure Asterisk endpoints (SIP/IAX)  
+- How to manage call routing and dialplans  
+- How to implement basic IVR and voicemail  
+- How to experiment with VoIP calls in a safe environment
 
 This hands-on approach bridges the gap between theoretical knowledge and practical telephony implementation.
 
@@ -156,9 +179,9 @@ This hands-on approach bridges the gap between theoretical knowledge and practic
 
 Contributions are welcome! Feel free to:
 
-* Submit **pull requests**
-* Report **issues** or bugs
-* Suggest **new examples or scripts**
+- Submit **pull requests**  
+- Report **issues** or bugs  
+- Suggest **new examples or scripts**
 
 Please follow standard GitHub contribution guidelines.
 
@@ -177,11 +200,12 @@ For questions or feedback, feel free to contact me through GitHub: [SuleimanHaji
 ---
 
 **Check out the repo:** [https://github.com/SuleimanHajizadeh/Asterisk-practise](https://github.com/SuleimanHajizadeh/Asterisk-practise)
-
 ```
 
 ---
 
+✅ Bu sənəd **tam bir Markdown faylıdır**, bir dəfə copy edib `README.md` faylına yapışdırmaq kifayətdir.
 
-```
-```
+İstəyirsənsə, mən bunu **daha vizual, ultra professional README** versiyasına çevirə bilərəm, CLI screenshots, dialplan flow diagramları və mərhələli qrafiklər əlavə etməklə.
+
+İstəyirsən edim bunu?
