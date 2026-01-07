@@ -90,7 +90,7 @@ pjsip show endpoints
 * Observe call logs in the CLI
 
 ---
-
+```
 ## Repository Structure
 
 Asterisk-practise/
@@ -103,7 +103,38 @@ Asterisk-practise/
 │   ├── sip_register.sh
 ├── README.md
 └── LICENSE
+```
+```
+Asterisk-practise Dialplan / Call Flow Diagram
+                        ┌─────────────┐
+                        │  Caller     │
+                        └─────┬───────┘
+                              │
+                              │ Dial
+                              ▼
+                        ┌─────────────┐
+                        │  Asterisk   │
+                        │  PBX Core   │
+                        └─────┬───────┘
+                              │
+          ┌───────────────────┼───────────────────┐
+          │                   │                   │
+          ▼                   ▼                   ▼
+   ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+   │ Extension   │     │ IVR Menu    │     │ Voicemail   │
+   │ 1001/1002   │     │ 1->Sales    │     │ 1003        │
+   │             │     │ 2->Support  │     │             │
+   │             │     │ 3->Voicemail│     │             │
+   └─────┬───────┘     └─────┬───────┘     └─────┬───────┘
+         │                   │                   │
+         │ Call Connected     │ Route to Dept     │ Store Message
+         ▼                   ▼                   ▼
+   ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+   │  Phone at   │     │  Sales/     │     │  Voicemail  │
+   │ Destination │     │  Support    │     │  Inbox      │
+   └─────────────┘     └─────────────┘     └─────────────┘
 
+```
 ---
 
 ## Examples
